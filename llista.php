@@ -32,7 +32,7 @@ $result = $conn->query($sql);
     ?>
 
       <div class="col-sm-3">
-        <img src="img/1.jpg" alt="" class="img-fluid">
+        <img src="img/<?= $row["id"] ?>.jpg" alt="" class="img-fluid">
         <p class="h3 text-centered"><?= $row["nom"] ?></p>
         <p class="h4 text-centered"><?= $row["nom"] ?></p>
       </div>

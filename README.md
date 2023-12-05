@@ -1,1 +1,0 @@
-# botiga-examen

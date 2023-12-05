@@ -11,7 +11,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT id, nom FROM productes";
+$sql = "SELECT id, nom, preu FROM productes";
 $result = $conn->query($sql);
 
 ?>
